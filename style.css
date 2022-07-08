@@ -5,7 +5,8 @@
 }
 body{
 height: 100px;
-background-color: #263859;
+background-image: "./assets/background.jpg";
+/* background-color: #efff0b; */
 }
 
 #search-form
