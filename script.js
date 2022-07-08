@@ -37,9 +37,9 @@ const getWeather = async (city) => {
     } else if (id < 700 && id > 600) {
       tempicon.src = "./assets/snow.png";
     } else if (id < 800 && id > 700) {
-      tempicon.src = "./assets/manyclouds.png";
+      tempicon.src = "./assets/hazycloudy.png";
     } else if (id == 800) {
-      tempicon.src = "./assets/sun.png";
+      tempicon.src = "./assets/clear.png";
     }
   } catch (error) {
     alert("city not found");
